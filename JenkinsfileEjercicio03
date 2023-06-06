@@ -1,0 +1,21 @@
+import de.svenjacobs.loremipsum.LoremIpsum;
+
+pipeline
+{
+    agent any
+    stages
+    {
+        stage("Creacion del fichero")
+        {
+            steps
+            {
+                script
+                {
+                    def artista = loremIpsum.getWords( 500 )
+                    
+                    writeFile(file: "Ejercicio03.txt", text: artista)
+                }
+            }
+        }        
+    }
+}
