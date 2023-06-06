@@ -1,4 +1,4 @@
-import de.svenjacobs.loremipsum.LoremIpsum;
+import de.svenjacobs.loremipsum.LoremIpsum
 
 pipeline
 {
