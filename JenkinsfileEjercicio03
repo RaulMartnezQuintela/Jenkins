@@ -9,17 +9,7 @@ pipeline
             {
                 script
                 {
-                    def artista = "Imagine Dragons es una banda estadounidense de pop rock originaria de Las Vegas, Nevada. Está compuesta por Dan Reynolds \n
-                    (vocalista), Wayne Sermon (guitarrista), Ben McKee (bajista) y Daniel Platzman (baterista). Ganó el reconocimiento mundial con el lanzamiento \n
-                    de su álbum de estudio debut Night Visions (2012), y con su canción "It's Time". Billboard los colocó en la cima de su lista de popularidaddel 2013 \n
-                    "Year In Rock", y los llamó «la banda revelación del 2013».6 La revista Rolling Stone llamó a su canción Radioactive, del álbum Night Visions, «el mayor \n
-                    exito rock del año».MTV los llamó «la banda revelación del año».10 "Radioactive" es la segunda canción con más semanas dentro del Billboard \n
-                    Hot 100 en la historia, con un total de 87 semanas. Night Visions alcanzó su punto máximo en el número dos de la lista semanal Billboard 200 y \n
-                    en UK Albums Chart. Su segundo álbum de estudio, Smoke + Mirrors, alcanzó el número uno en los Estados Unidos, Canadá y el Reino Unido.\n
-                    Imagine Dragons ganó dos American Music Awards por "Artista Alternativo Favorito", un premio Grammy a la mejor interpretación rock, cinco \n
-                    premios Billboard Music Awards y un premio World Music Award. En mayo de 2014, la banda obtuvo un total de catorce nominaciones en diferentes \n
-                    categorías en los Billboard Music Awards, incluyendo "Top Artist of the Year" y un Milestone Award, el cual reconoce la innovación y la creatividad de \n
-                    varios artistas a través de diferentes géneros.Hasta enero de 2017, Imagine Dragons había vendido 9 millones de copias de sus álbumes, y 27 millones en sencillos.13"
+                    def artista = "Imagine Dragons es una banda estadounidense de pop rock originaria de Las Vegas, Nevada. Está compuesta \npor Dan Reynolds (vocalista), Wayne Sermon (guitarrista), Ben McKee (bajista) y Daniel Platzman (baterista). Ganó el reconocimiento mundial \ncon el lanzamiento de su álbum de estudio debut Night Visions (2012), y con su canción It's Time. Billboard los colocó en la cima de su lista de popularidaddel \n2013 Year In Rock, y los llamó «la banda revelación del 2013».6 La revista Rolling Stone llamó a su canción Radioactive, \ndel álbum Night Visions, «el mayor éxito rock del año». MTV los llamó «la banda revelación del año».10 Radioactive es la segunda canción con más semanas dentro del Billboard Hot 100 en la historia, con un total de 87 semanas. Night Visions alcanzó su punto máximo en el número dos de la lista \nsemanal Billboard 200 y en UK Albums Chart. Su segundo álbum de estudio, Smoke + Mirrors, alcanzó el número uno en los Estados Unidos, Canadá y el Reino Unido.1112Imagine Dragons ganó dos American Music Awards por \nArtista Alternativo Favorito, un premio Grammy a la mejor interpretación rock, cinco premios Billboard Music Awards y un premio World Music Award. En mayo de 2014, \nla banda obtuvo un total de catorce nominaciones en diferentes categorías en los Billboard Music Awards, incluyendo y un Milestone Award, el cual reconoce la innovación y \nla creatividad de varios artistas a través de diferentes géneros.Hasta enero de 2017, Imagine Dragons había vendido 9 millones de copias de sus álbumes, y 27 millones en sencillos.13"
                     
                     writeFile(file: "Ejercicio03.txt", text: artista)
                 }
